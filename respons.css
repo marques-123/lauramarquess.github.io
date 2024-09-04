@@ -1,0 +1,303 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(/Img/Tecnologia4.jpg);
+    animation:fundomechendo 50s infinite linear;
+    margin: 0%;
+    padding: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #c9d1d9;
+}
+
+a {
+    text-decoration: none;
+    color: #58a6ff;
+    font-size: 1.2vw;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1f6feb;
+}
+
+.Blocos {
+    display: flex;
+    flex-direction: row;
+}
+
+.Nav {
+    display: flex;
+    font-size: 1.2vw;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(5, 63, 81, 0.516);
+    backdrop-filter: blur(10px);
+    width: 20%;
+    height: 137vh;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+    color: #c9d1d9;
+}
+
+.Nav ul {
+    font-size: 1.7vw;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.Titulo {
+    padding: 1%;
+    display: flex;
+    font-size: 2vw;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgba(67, 134, 201, 0.2);
+    backdrop-filter: blur(10px);
+    height: 20vh;
+    width: 98%;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+    color: #c9d1d9;
+}
+
+.img1{
+    border-radius: 15%;
+    width: 25vh;
+    max-width: 100%;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+}
+.img2{
+     border-radius: 15%;
+width: 30vh;
+max-width: 100%;
+box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.img3 {
+    margin-top: 4%;
+    border-radius: 50%;
+    height: 20vh;
+}
+
+.Blocos2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1vw;
+}
+
+.Bloco2 {
+    background: rgba(67, 134, 201, 0.2);
+    background-color: transparent;
+    border: solid 2px #ddd;
+    padding: 2%;
+    height: 85vh;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.Bloco2:hover {
+    transform: scale(1.02);
+}
+
+.Bloco1 {
+    background-color: transparent;
+    border: solid 2px #ddd;
+    padding: 2%;
+    font-size: 1.2vw;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 85vh;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+    color: #c9d1d9;
+    h2{
+        padding-left: 10%;
+    }
+}
+
+.Bloco1:hover {
+    transform: scale(1.02);
+}
+
+.Rodape {
+    backdrop-filter: blur(10px);
+    background: rgba(67, 134, 201, 0.2);
+
+    color: white;
+    text-align: center;
+    height: 18.4vh;
+    font-size: 1.2vw;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+    padding: 1% 0;
+}
+
+.Bloco2-1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1vw;
+    text-align: justify;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+    padding: 2%;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.589);
+   
+    backdrop-filter: blur(10px);
+    color: #c9d1d9;
+    p {
+        padding-left: 5%;
+    }
+}
+
+.p {
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+    padding: 2%;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.589);
+    backdrop-filter: blur(10px);
+    margin-top: 2%;
+    color: #c9d1d9;
+}
+
+@media screen and (max-width: 480px) {
+.img1{
+    width: 25%;
+}
+.img2{
+    width: 30%;
+}
+
+.Titulo{
+    h1{
+        font-size: 2.7vw;
+    }
+}
+
+.Blocos2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.p{
+    font-size: 2vw;
+}
+.Bloco2-1{
+    font-size: 1.8vw;
+}
+.img3{
+    width: 30vw;
+}
+
+.Bloco2{
+    height: 65vh;
+    font-size: 2vw;
+}
+.Bloco1{
+    font-size: 1.8vw;
+    height: 35vh;
+    width: 76vw;
+    a{
+    font-size: 2vw;
+    }
+}
+
+.Nav{
+    font-size: 2vw;
+    height: 111vh;
+    padding-top: 35%;
+    h2{
+        margin-left: 15%;
+    }
+    a{
+    font-size: 2vw;
+
+    }
+}
+.Rodape{
+    font-size: 1.5vw;
+    height: 8.9vh;
+}
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .Bloco2-1 {
+
+        font-size: 1.7vw;
+    }
+
+    .Bloco2 {
+        height: 90vh;
+        h2 {
+            margin-top: 2%;
+            font-size: 2vw;
+        }
+
+
+    }
+
+    .p {
+        font-size: 1.7vw;
+        
+    }
+
+    .img1 {
+        width: 18vw;
+
+    }
+
+    .img2 {
+        width: 20vw;
+
+    }
+
+    .img3{
+        width: 20vw;
+    }
+    .Titulo {
+        font-size: 2vw;
+    }
+
+    .Bloco1 {
+        height: 90vh;
+        font-size: 1.5vw;
+
+        a {
+            font-size: 1.5vw;
+        }
+    }
+
+    .Nav {
+        display: flex;
+        font-size: 2vw;
+        height: 136.5vh;
+        justify-content: center;
+
+
+        a {
+            font-size: 1.9vw;
+        }                 
+
+        h2 {
+            margin-left: 14%;
+        }
+    }
+
+.Rodape{
+    font-size: 1.6vw;
+}
+@keyframes fundomechendo {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
+}
+}
